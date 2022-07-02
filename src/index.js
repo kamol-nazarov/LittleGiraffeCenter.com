@@ -7,6 +7,8 @@ import InsurancePage from './pages/Insurance_Page/InsurancePage';
 import ContactPage from './pages/Contact_Page/ContactPage';
 import MakePaymentPage from './pages/Make_Payment_Page/MakePaymentPage';
 import GalleryPage from './pages/Gallery_Page/GalleryPage';
+import ClassesPage from './pages/Classes_Page/ClassesPage';
+import NoPage from './pages/404Page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,6 +22,8 @@ root.render(
         <Route exact path='/contact' element={<ContactPage />} />
         <Route exact path='/makepayment' element={<MakePaymentPage />} />
         <Route exact path='/gallery' element={<GalleryPage />} />
+        <Route exact path='/classes' element={<ClassesPage />} />
+        <Route exact path='/*' element={<NoPage />} />
       </Routes>
     </Router>
   </React.StrictMode>
