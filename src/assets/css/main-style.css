@@ -1,0 +1,134 @@
+.home-page-header-container {
+    font-family: 'Arima', cursive;
+}
+
+.home-page-header-first-row {
+    margin-top: 10px !important;
+}
+
+.home-page-header-number {
+    margin-top: 15px;
+}
+
+.home-page-header-navbar-brand {
+    font-size: 50px !important;
+}
+
+.home-page-header-about-us-link {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #F0C58F;
+    text-decoration: none;
+}
+
+.home-page-header-about-us-link:hover {
+    background-color: #E2912A;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-about-us-link > h6 {
+    margin: 5px;
+    margin-left: 64px;
+    color: white;
+}
+
+.home-page-header-insurance-link {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #8E472F;
+    text-decoration: none;
+}
+
+.home-page-header-insurance-link:hover {
+    background-color: #633221;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-insurance-link > h6 {
+    margin: 5px;
+    margin-left: 28px;
+    color: white;
+}
+
+.home-page-header-payment-link {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #572D1D;
+    text-decoration: none;
+}
+
+.home-page-header-payment-link:hover {
+    background-color: #1A0D09;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-payment-link > h6 {
+    margin: 5px;
+    margin-left: 41.5px;
+    color: white;
+}
+
+.home-page-header-gallery-link {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #040404;
+    text-decoration: none;
+}
+
+.home-page-header-gallery-link:hover {
+    background-color: #040123;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-gallery-link > h6 {
+    margin: 5px;
+    margin-left: 44px;
+    color: white;
+}
+
+.home-page-header-classes-link {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #669B68;
+    text-decoration: none;
+}
+
+.home-page-header-classes-link:hover {
+    background-color: #293E29;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-classes-link > h6 {
+    margin: 5px;
+    margin-left: 73px;
+    color: white;
+}
+
+.home-page-header-contact-link {
+    border: 1px black solid;
+    background-color: #391C13;
+    text-decoration: none;
+}
+
+.home-page-header-contact-link:hover {
+    background-color: #4E281A;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.home-page-header-contact-link > h6 {
+    margin: 5px;
+    margin-left: 55.5px;
+    color: white;
+}
+

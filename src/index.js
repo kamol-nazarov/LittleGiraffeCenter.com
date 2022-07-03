@@ -10,6 +10,8 @@ import GalleryPage from './pages/Gallery_Page/GalleryPage';
 import ClassesPage from './pages/Classes_Page/ClassesPage';
 import NoPage from './pages/404Page';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
