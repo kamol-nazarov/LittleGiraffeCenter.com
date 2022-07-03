@@ -1,6 +1,8 @@
-.home-page-header-container {
+* {
     font-family: 'Arima', cursive;
 }
+
+/* Home Page Header Styling Start */
 
 .home-page-header-first-row {
     margin-top: 10px !important;
@@ -131,4 +133,56 @@
     margin-left: 55.5px;
     color: white;
 }
+
+/* Home Page Header Styling End */
+
+/* Home Page Body Styling Start */
+
+.home-page-body-first-row {
+    background-image: url('./../images/homepage-body-background.svg');
+    height: 759px
+}
+
+.home-page-body-first-row-col-image {
+    height: 650px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.home-page-body-first-row-second-col-container {
+    margin-top: 270px;
+    margin-left: 30px !important;
+}
+
+.home-page-body-first-row-second-col-container > h5 {
+    margin-left: 24px;
+}
+
+.home-page-body-first-row-second-col-container > h3 {
+    margin-left: 98px;
+    margin-top: 200px;
+}
+
+.home-page-body-second-row {
+    background-color: #FFEDB7;
+}
+
+.home-page-body-second-row-first-col-container > h1 {
+    margin-top: 50px;
+    margin-left: 320px;
+
+}
+
+.home-page-body-second-row-first-col-container > h6 {
+    margin-left: 350px;
+}
+
+.home-page-body-second-row-first-col-container-image {
+    height: 300px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+
+
 

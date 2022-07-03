@@ -20,8 +20,8 @@ export default function HomePageHeader() {
                 </Col>
                     
             </Row>
-            <Row className="home-page-second-row justify-content-center" >
-                <Col sm={2} className="home-page-header-about-us-link" as="a" href="/services">
+            <Row className="home-page-header-second-row justify-content-center" >
+                <Col sm={2} className="home-page-header-about-us-link" as="a" href="/services" >
                     <h6>About Us</h6>
                 </Col>
                 <Col sm={2} className="home-page-header-insurance-link" as="a" href="/insurance" >    

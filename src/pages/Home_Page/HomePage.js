@@ -9,8 +9,8 @@ export default class HomePage extends React.Component {
     render() {
 
         return (
-            <div className='home-page-div'>
-                <HomePageHeader className="home-page-header"/>
+            <div>
+                <HomePageHeader />
                 <HomePageBody />
             </div>
         );
