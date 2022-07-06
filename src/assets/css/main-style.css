@@ -185,17 +185,45 @@
     margin-bottom: 50px;
 }
 
-
-
 .home-page-body-third-row  {
     background-color: #c3e585;
-
 }
 
 .home-page-body-third-row-first-col-container {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
-    
+}
 
+/* Home Page Body Styling End */
+
+/* Home Page Footer Styling Start */
+
+.home-page-footer-container {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home-page-footer-about-us-link {
+    color: #513932;
+}
+
+.home-page-footer-accepted-insurance-link {
+    color: #513932;
+}
+.home-page-footer-payment-link {
+    color: #513932;
+}
+
+.home-page-footer-gallery-link {
+    color: #513932;
+}
+
+.home-page-footer-classes-link {
+    color: #513932;
+}
+
+.home-page-footer-contact-link {
+    color: #513932;
 }
