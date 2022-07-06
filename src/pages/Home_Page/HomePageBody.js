@@ -35,6 +35,20 @@ export default function HomePageBody() {
                     </Container>
                 </Col>
             </Row>
+            <Row className="home-page-body-third-row" >
+                <Col className="home-page-body-third-row-first-col" >
+                    <Container className="home-page-body-third-row-first-col-container" > 
+                        <h1>Our Mission</h1>
+                        <h7>
+                            To provide quality care through Pediatric Early Intervention and to ensure fiscal viability and the future <br />  
+                            of its vision, the Little Giraffe Center will foster a supportive growth and learning environment,<br />
+                            which will empower staff and families to become part of the therapy team.<br />
+                            The Little Giraffe Center will continue to listen and respond to community needs in an atmosphere of fun and creativity.<br />
+                            Our treatment center include swings, sensory rooms, functional play rooms, and play gyms.
+                        </h7>
+                    </Container>           
+                </Col>
+            </Row>
       </Container>
     );
 }

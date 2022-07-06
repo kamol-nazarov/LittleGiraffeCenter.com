@@ -118,12 +118,13 @@
 
 .home-page-header-contact-link {
     border: 1px black solid;
-    background-color: #391C13;
+    background-color: #513932;
     text-decoration: none;
+    /*Contact Us*/
 }
 
 .home-page-header-contact-link:hover {
-    background-color: #4E281A;
+    background-color: #cf6038;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
@@ -181,8 +182,20 @@
     height: 300px;
     width: 600px;
     margin-left: 350px;
+    margin-bottom: 50px;
 }
 
 
 
+.home-page-body-third-row  {
+    background-color: #c3e585;
 
+}
+
+.home-page-body-third-row-first-col-container {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
