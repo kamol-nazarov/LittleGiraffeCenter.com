@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import WavingGiraffe from './../../assets/images/giraffe-waving.png';
-import PatientPictureOne from './../../assets/images/patient_picture_1.JPG';
+import PatientPictureOne from './../../assets/images/100_3237.JPG';
 
 import '../../assets/css/main-style.css';
 
