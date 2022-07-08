@@ -175,7 +175,8 @@
 }
 
 .home-page-body-second-row-first-col-container > h6 {
-    margin-left: 350px;
+    margin-left: 50px;
+    text-align: center;
 }
 
 .home-page-body-second-row-first-col-container-image {
@@ -200,16 +201,18 @@
 /* Home Page Footer Styling Start */
 
 .home-page-footer-container {
-    margin-top: 50px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: .5px;
+    background-color: #e0e0ff;
 }
 
 .home-page-footer-about-us-link {
     color: #513932;
+    
 }
 
 .home-page-footer-accepted-insurance-link {
+    margin-top: 50px;
     color: #513932;
 }
 .home-page-footer-payment-link {
@@ -226,4 +229,163 @@
 
 .home-page-footer-contact-link {
     color: #513932;
+}
+
+.home-page-footer-facebook-logo {
+    size: 5%;
+    margin-left: 500px;
+    margin-top: .5px;
+}
+
+/* Home Page Footer Styling End */
+
+/* Service Page Body Styling Start */
+.service-page-container {
+    margin-top: 350px;
+}
+
+.services-page-container {
+    background-color: #f9eeff;
+    border-style: ridge;
+}
+.first-col-image {
+    height: 300px;
+    
+    margin-top: 80px;
+}
+
+.second-col-image {
+    height: 300px;
+   
+    margin-top: 80px;
+}
+
+.third-col-image {
+    height: 300px;
+    margin-left: right;
+    margin-top: 80px;
+}
+
+.service-page-first-row {
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 1000px;
+    text-align: center;
+    font-size: large;
+}
+
+.service-page-second-row-first-col {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    font-size: medium;
+}
+
+.service-page-second-row-second-col {
+    text-align: center;
+}
+
+.service-page-third-row > h14 {
+    font-size: xx-large;
+    color: #00bbff;
+}
+
+.service-page-third-row > h21 {
+    margin-bottom: 25px;
+}
+
+.service-page-third-row > h15, h22 {
+    font-size: larger;
+    color: #f08058;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.service-page-third-row > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
+    color: #535354;
+}
+
+.service-page-third-row > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
+    color:#7a7a7d
+}
+
+/* Service Page Styling End */
+
+/* Gallery Page Styling Start */
+
+.gallery-page-body-container {
+    background-color: #f3deff;
+}
+
+.gallery-page-body-first-row-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-first-row-second-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-first-row-third-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-second-row-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-second-row-second-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-second-row-third-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-third-row-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px; 
+}
+
+.gallery-page-body-third-row-second-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-third-row-third-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-fourth-row-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-fourth-row-second-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
+}
+
+.gallery-page-body-fourth-row-third-col-image {
+    height: 300px;
+    margin-left: left;
+    margin-top: 80px;
 }
