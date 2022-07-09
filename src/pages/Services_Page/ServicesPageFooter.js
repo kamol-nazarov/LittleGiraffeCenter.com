@@ -36,7 +36,7 @@ export default function ServicesPageFooter() {
                 </Col>
 
                 <Col xx-sm={2} className="home-page-footer-facebook-logo" as="a" href="http://www.facebook.com" >
-                    <img src={fb_logo} alt="facebook" className='gallery-page-body-second-row-third-col-image'></img>
+                    <img src={fb_logo} alt="facebook" className='home-page-footer-second-row-third-col-image'></img>
                 </Col>    
             
             </Row>

@@ -236,37 +236,27 @@
     margin-left: 500px;
     margin-top: .5px;
 }
+.home-page-footer-second-row-third-col-image {
+    height: 30px;
+    width: 30px;
+}
 
 /* Home Page Footer Styling End */
 
 /* Service Page Body Styling Start */
-.service-page-container {
-    margin-top: 350px;
+.services-page-body-first-row-first-col {
+    background-color: #00bbff;
 }
 
-.services-page-container {
-    background-color: #f9eeff;
-    border-style: ridge;
+/*
+.services-page-body-first-row {
+    background-image: url('./../images/60-smiling-and-holding-notepad.svg');
+    margin-top: 100px;
+    size: 500px;
 }
-.first-col-image {
-    height: 300px;
-    
-    margin-top: 80px;
-}
+*/
 
-.second-col-image {
-    height: 300px;
-   
-    margin-top: 80px;
-}
-
-.third-col-image {
-    height: 300px;
-    margin-left: right;
-    margin-top: 80px;
-}
-
-.service-page-first-row {
+.services-page-body-first-row-first-col-container-justify-content-center {
     height: 300px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -274,40 +264,50 @@
     text-align: center;
     font-size: large;
 }
+services-page-body-first-row-first-col
 
-.service-page-second-row-first-col {
+.services-page-body-second-row-container {
+    background-color: #7a7a7d;
+}
+
+.services-page-second-row-first-col {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: left;
     font-size: medium;
 }
 
-.service-page-second-row-second-col {
-    text-align: center;
+/*
+.services-page-second-row-second-col {
+    margin-right: right;
+    height: .5px;
 }
-
-.service-page-third-row > h14 {
+*/
+.services-page-body-third-row-first-col > h14 {
     font-size: xx-large;
     color: #00bbff;
 }
 
-.service-page-third-row > h21 {
+.services-page-body-third-row-first-col > h21 {
     margin-bottom: 25px;
 }
 
-.service-page-third-row > h15, h22 {
+.services-page-body-third-row-first-col > h15, h22 {
     font-size: larger;
     color: #f08058;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.service-page-third-row > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
+.services-page-body-third-row-first-col > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
     color: #535354;
 }
 
-.service-page-third-row > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
+.services-page-body-third-row-first-col > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
     color:#7a7a7d
+}
+.services-page-body-third-row-first-col {
+    background-color: #669B68;
 }
 
 /* Service Page Styling End */
