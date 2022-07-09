@@ -15,6 +15,7 @@ export default class HomePage extends React.Component {
                 <HomePageHeader />
                 <HomePageBody />
                 <HomePageFooter />
+                
             </div>
         );
     }
