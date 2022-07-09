@@ -201,45 +201,40 @@
 /* Home Page Footer Styling Start */
 
 .home-page-footer-container {
-    text-align: center;
-    margin-bottom: .5px;
-    background-color: #e0e0ff;
-}
-
-.home-page-footer-about-us-link {
-    color: #513932;
     
+    
+    margin-bottom: .5px;
+    background-color: black;
 }
 
-.home-page-footer-accepted-insurance-link {
-    margin-top: 50px;
-    color: #513932;
+.home-page-footer-first-row-first-col-nav-links > p{
+    color: white;
 }
-.home-page-footer-payment-link {
-    color: #513932;
+
+.home-page-footer-first-row {
+    text-align: center !important;    
 }
 
 .home-page-footer-gallery-link {
     color: #513932;
+    text-align: center !important;
 }
 
 .home-page-footer-classes-link {
     color: #513932;
+    text-align: center !important;
 }
 
 .home-page-footer-contact-link {
     color: #513932;
+    text-align: center !important;
 }
 
 .home-page-footer-facebook-logo {
-    size: 5%;
-    margin-left: 500px;
-    margin-top: .5px;
+    size: .5%;
+    text-align: center !important;
 }
-.home-page-footer-second-row-third-col-image {
-    height: 30px;
-    width: 30px;
-}
+
 
 /* Home Page Footer Styling End */
 
@@ -248,6 +243,14 @@
     background-color: #00bbff;
 }
 
+.home-page-footer-container {
+    text-align: center;
+}
+
+.home-page-footer-first-row-first-col-nav-facebook-logo > img {
+    height: 20px;
+    width: 20px;
+}
 /*
 .services-page-body-first-row {
     background-image: url('./../images/60-smiling-and-holding-notepad.svg');
@@ -277,12 +280,8 @@ services-page-body-first-row-first-col
     font-size: medium;
 }
 
-/*
-.services-page-second-row-second-col {
-    margin-right: right;
-    height: .5px;
-}
-*/
+
+
 .services-page-body-third-row-first-col > h14 {
     font-size: xx-large;
     color: #00bbff;
@@ -316,76 +315,125 @@ services-page-body-first-row-first-col
 
 .gallery-page-body-container {
     background-color: #f3deff;
+    padding: 0px;
+    text-align: center;
 }
 
 .gallery-page-body-first-row-col-image {
     height: 300px;
-    margin-left: left;
     margin-top: 80px;
+    
+    
+    
 }
 
 .gallery-page-body-first-row-second-col-image {
     height: 300px;
-    margin-left: left;
     margin-top: 80px;
+    
 }
 
 .gallery-page-body-first-row-third-col-image {
     height: 300px;
-    margin-left: left;
+    margin-left: center;
     margin-top: 80px;
+    
 }
 
 .gallery-page-body-second-row-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
 }
 
 .gallery-page-body-second-row-second-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
 }
 
 .gallery-page-body-second-row-third-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
+}
+
+.gallery-page-body-second-row-fourth-col-image {
+    height: 300px;
+    margin-left: center;
 }
 
 .gallery-page-body-third-row-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px; 
+    margin-left: center;;
+    
 }
 
 .gallery-page-body-third-row-second-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+   
 }
 
 .gallery-page-body-third-row-third-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
 }
 
 .gallery-page-body-fourth-row-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
 }
 
 .gallery-page-body-fourth-row-second-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+    
 }
 
 .gallery-page-body-fourth-row-third-col-image {
     height: 300px;
-    margin-left: left;
-    margin-top: 80px;
+    margin-left: center;
+   
+}
+
+.gallery-page-body-fifth-row-col-image {
+    height: 300px;
+    margin-left: center;
+}
+.gallery-page-body-fifth-row-second-col-image {
+    height: 300px;
+    margin-left: center;
+}
+
+.gallery-page-body-fifth-row-third-col-image {
+    height: 300px;
+    margin-left: center;
+}
+
+.gallery-page-body-sixth-row-col-image {
+    height: 300px;
+    margin-left: center;
+}
+
+.gallery-page-body-sixth-row-second-col-image {
+    height: 300px;
+    margin-left: center;
+}
+
+.gallery-page-body-sixth-row-third-col-image {
+    height: 300px;
+    margin-left: center;
+}
+
+.gallery-page-body-seventh-row-col-image {
+    height: 300px;
+    margin-left: center;    
+}
+
+.gallery-page-body-seventh-row-second-col-image {
+    height: 300px;
+    margin-left: center;    
 }

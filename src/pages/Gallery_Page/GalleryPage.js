@@ -2,8 +2,7 @@ import React from 'react';
 
 import GalleryPageHeader from './GalleryPageHeader';
 import GalleryPageBody from './GalleryPageBody';
-import GalleryPageFooter from './GalleryPageFooter';
-
+import HomePageFooter from '../Home_Page/HomePageFooter';
 import './../../assets/css/main-style.css';
 
 
@@ -14,7 +13,7 @@ export default class GalleryPage extends React.Component {
             <div>
                 <GalleryPageHeader />
                 <GalleryPageBody />
-                <GalleryPageFooter />
+                <HomePageFooter />
             </div>
         );
     }

@@ -2,8 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import drdanha_image from './../../assets/images/dr.danha.jpg';
-
+    
 import './../../assets/css/main-style.css';
 
 export default class ServicesPage extends React.Component {
@@ -61,7 +60,7 @@ export default class ServicesPage extends React.Component {
                             <h14>
                                 OUR SERVICES<br />
                             </h14>
-                
+                            
                             <h15>
                                 WE OFFER THE FOLLOWING TYPES OF THERAPY<br />
                             </h15>

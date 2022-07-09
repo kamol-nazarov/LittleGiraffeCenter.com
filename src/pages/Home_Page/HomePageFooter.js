@@ -1,46 +1,45 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Nav from 'react-bootstrap/Nav';
 import fb_logo from './../../assets/images/fblogo.png'
 
 import './../../assets/css/main-style.css';
 
 export default function HomePageFooter() {
     return (
-        <Container className="home-page-footer-container" >
+        <div className="home-page-footer-container justify-content-center" >
         
             <Row className="home-page-footer-first-row" >
+                <Col className="home-page-footer-first-row-first-col">
+                    <Nav className="home-page-footer-first-row-first-col-nav justify-content-center">
+                        <Nav.Link href="https://www.facebook.com" className="home-page-footer-first-row-first-col-nav-facebook-logo">
+                            <img src={fb_logo} alt="facebook" />
+                        </Nav.Link>
+                        <Nav.Link href="/services" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>About Us</p>
+                        </Nav.Link>
+                        <Nav.Link href="/insurance" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>Accepted Insurance</p>
+                        </Nav.Link>
+                        <Nav.Link href="/makepayment" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>Make A Payment</p>
+                        </Nav.Link>
+                        <Nav.Link href="/gallery" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>Picture Gallery</p>
+                        </Nav.Link>
+                        <Nav.Link href="/classes" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>Classes</p>
+                        </Nav.Link>
+                        <Nav.Link href="/contact" className="home-page-footer-first-row-first-col-nav-links">
+                            <p>Contact us</p>
+                        </Nav.Link>
+                    </Nav>
+                
 
-                <Col sm={1} className="home-page-footer-about-us-link" as="a" href="/services" >
-                    <h10>ABOUT US / SERVICES</h10>
                 </Col>
-
-                <Col sm={1} className="home-page-footer-accepted-insurance-link" as="a" href="/insurance" >
-                    <h10>ACCEPTED INSURANCE</h10>
-                </Col>
-
-                <Col sm={1} className="home-page-footer-payment-link" as="a" href="/makepayment" >
-                    <h10>MAKE A PAYMENT</h10>
-                </Col>
-
-                <Col sm={1} className="home-page-footer-gallery-link" as="a" href="/gallery" >
-                    <h10>PICTURE GALLERY</h10>
-                </Col>
-
-                <Col sm={1} className="home-page-footer-classes-link" as="a" href="/classes" >
-                    <h10>CLASSES</h10>
-                </Col>
-
-                <Col sm={1} className="home-page-footer-contact-link" as="a" href="/contact" >
-                    <h10>CONTACT US</h10>
-                </Col>
-
-                <Col xx-sm={1} className="home-page-footer-facebook-logo" as="a" href="http://www.facebook.com" >
-                    <img src={fb_logo} alt="facebook" className='home-page-footer-second-row-third-col-image'></img>
-                </Col>    
-            
             </Row>
 
-        </Container>
+        </div>
     );
 }
