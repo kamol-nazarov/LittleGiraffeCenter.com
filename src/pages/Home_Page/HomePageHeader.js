@@ -1,11 +1,19 @@
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Toast from 'react-bootstrap/Toast';
+import Button from 'react-bootstrap/Button';
+
 
 import './../../assets/css/main-style.css';
 
 export default function HomePageHeader() {
+
+    const [showA, setShowA] = useState(true);
+    const toggleShowA = () => setShowA(!showA);
+
     return (
         <Container bg="light" expand="lg" className="home-page-header-container" >
             <Row className="home-page-header-first-row" >
@@ -17,6 +25,16 @@ export default function HomePageHeader() {
                         Office: 917-638-0841<br />
                         Fax: 888-966-0155
                     </h6>
+                    <Button onClick={toggleShowA} className="mb-2">
+                        COVID-19 UPDATE
+                    </Button>
+                    <Toast show={showA} onClose={toggleShowA}>
+                        <Toast.Header>
+                            <strong className="me-auto">COVID-19</strong>
+                        </Toast.Header>
+                        <Toast.Body>Woohoo, you're reading this text in a Toast!</Toast.Body>
+                    </Toast>
+
                 </Col>
                     
             </Row>
