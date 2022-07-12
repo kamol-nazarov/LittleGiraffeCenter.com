@@ -28,7 +28,7 @@ export default function HomePageHeader() {
                     <Button onClick={toggleShowA} className="mb-2">
                         COVID-19 UPDATE
                     </Button>
-                    <Toast show={showA} onClose={toggleShowA}>
+                    <Toast show={showA} onClose={toggleShowA} className="home-page-header-first-row-toast">
                         <Toast.Header>
                             <strong className="me-auto">COVID-19</strong>
                         </Toast.Header>

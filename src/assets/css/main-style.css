@@ -24,6 +24,13 @@
     text-decoration: none;
 }
 
+.home-page-header-first-row-toast {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    z-index:1;
+}
+
 .home-page-header-about-us-link:hover {
     background-color: #E2912A;
     transition: all .4s ease;
@@ -240,7 +247,7 @@
 
 /* Service Page Body Styling Start */
 .services-page-body-first-row-first-col {
-    background-color: #00bbff;
+    background-color: #6aa0b4;
 }
 
 .home-page-footer-container {
@@ -262,15 +269,30 @@
 .services-page-body-first-row-first-col-container-justify-content-center {
     height: 300px;
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 1000px;
+    margin-bottom: 30px;
+ 
     text-align: center;
     font-size: large;
 }
-services-page-body-first-row-first-col
 
 .services-page-body-second-row-container {
-    background-color: #7a7a7d;
+    background-color: #82b2ff;
+}
+
+.services-page-second-row {
+    background-color: #82b2ff;
+}
+.image-dr-dan-ha {
+   
+}
+
+.services-page-second-row > h14 {
+    margin-top: 30px !important;
+}
+
+.services-page-second-row > h12 {
+
+    margin-top: 500px;
 }
 
 .services-page-second-row-first-col {
@@ -280,7 +302,9 @@ services-page-body-first-row-first-col
     font-size: medium;
 }
 
-
+.services-page-body-third-row-container {
+    background-color: #b5d6b7;
+}
 
 .services-page-body-third-row-first-col > h14 {
     font-size: xx-large;
@@ -288,7 +312,8 @@ services-page-body-first-row-first-col
 }
 
 .services-page-body-third-row-first-col > h21 {
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
+    
 }
 
 .services-page-body-third-row-first-col > h15, h22 {
@@ -306,7 +331,7 @@ services-page-body-first-row-first-col
     color:#7a7a7d
 }
 .services-page-body-third-row-first-col {
-    background-color: #669B68;
+    background-color: #b5d6b7;
 }
 
 /* Service Page Styling End */
@@ -322,8 +347,6 @@ services-page-body-first-row-first-col
 .gallery-page-body-first-row-col-image {
     height: 300px;
     margin-top: 80px;
-    
-    
     
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import drdanha_image from './../../assets/images/dr.danha.jpg';
     
 import './../../assets/css/main-style.css';
 
@@ -17,19 +18,20 @@ export default class ServicesPage extends React.Component {
                         
                     <Col className="services-page-body-first-row-first-col" >
                         <Container className="services-page-body-first-row-first-col-container-justify-content-center">
-                            <h11>
+                            
                                 LITLE GIRAFFE CENTER, INC provides pediatric Physical, Occupational, Speech, and ABA Therapy.<br />
                                 We also specialize in the treatment and prevention of Torticollis. Our highly trained staff<br />
                                 can evaulate your child in the clinic or home environment. We are a family and community base center.<br />
                                 We understand the hectic schedule of parents and will work around your child individual needs. Our<br />
                                 specialized treatment plan of care are individualized according to the, child, parents and staff.<br />
                                 We believe every child is special and unique.
-                            </h11>
+                            
                         </Container>
                     </Col>
                 </Row>
-                <Container sm={2}className="services-page-body-second-row-container" >
-                    <Row className="services-page-second-row" >
+                
+                <Row className="services-page-second-row" >
+                    <Container className="services-page-body-second-row-container" >
                         <Col className="services-page-second-row-first-col" > {/*2r-1c*/}
                             <h12>
                                 Dr. Dan Ha, PT, DPT has over 17 years of pediatric physical medicine experience.<br />
@@ -37,23 +39,26 @@ export default class ServicesPage extends React.Component {
                                 He specializes in the treatment of various Genetic and Neurological Diagnosis,<br /> 
                                 Developmental Delay, Autism Spectrum Disorder, Cerebral Palsy, Asperger Syndrome,<br />
                                 Wound Care, Prosthetic and Orthotics, Splints, Adoptive Equipment, Kinesio Tapping,<br />
-                                Cranial Helmets, and Cervical Torticollis Collar. Dr. Dan specializes in the treatment<br />
-                                of Torticollis and Plagiocephaly. He is the proud father of 2 sons and a daughter.<br />
+                                Cranial Helmets, Cervical Torticollis Collar, Down Syndrome, myofascial release,<br />
+                                motor delay, gait training, prematurity, extreme prematurity, cognitive delay and<br />
+                                Orthopedic rehab Dr. Dan specializes in the treatment of Torticollis and Plagiocephaly.<br />
+                                He is the proud father of 2 sons and a daughter.<br />
                                 On his days off he spends time with his children enjoying outdoor activities.
                             </h12>
                         </Col>
-                        
-                        {/* <Col sm={2}className="services-page-second-row-second-col" >
+                    </Container>
+                    <Container className="image-dr-dan-ha" >
+                        <Col sm={2}className="services-page-second-row-second-col" >
                             <img
                                 className="dr-dan-ha"
                                 src={drdanha_image}
                                 alt="drdanha"
                             />  
-                        </Col>*/}
+                        </Col>
                         
-                    </Row>
-                </Container>
-                
+                    </Container>
+                    
+                </Row>
                 <Row className="services-page-third-row" >
                     <Container className="services-page-body-third-row-container" >
                         <Col className="services-page-body-third-row-first-col" > {/* 3r-1c */}
