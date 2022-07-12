@@ -149,6 +149,7 @@
 .home-page-body-first-row {
     background-image: url('./../images/homepage-body-background.svg');
     height: 759px
+    
 }
 
 .home-page-body-first-row-col-image {
@@ -248,14 +249,12 @@
 /* Service Page Body Styling Start */
 
 .service-page-body-first-row-col {
-    margin-left: 460px;
-    height: 570px !important;
+    margin-left: 580px;
+    height: 250px !important;
     margin-top: 100px;
 }
 
-.services-page-body-first-row-first-col {
-    background-color: #6aa0b4;
-}
+
 
 .home-page-footer-container {
     text-align: center;
@@ -272,14 +271,18 @@
     size: 500px;
 }
 */
+.services-page-body-container {
+    background-image: url('./../images/BlueWallpaper.png');
+}
 
 .services-page-body-first-row-first-col-container-justify-content-center {
     height: 300px;
     margin-top: 100px;
     margin-bottom: 30px;
- 
+    margin-left: 500px;
     text-align: center;
     font-size: large;
+    
 }
 
 .services-page-body-second-row-container {
@@ -291,11 +294,11 @@
 }
 
 .services-page-body-seond-row-second-col-container-justify-content-center {
-    height: 300px;
+    height: 200px;
     
     /*margin-bottom: 15px !important;---does not change anything*/
     text-align: center;
-    font-size: medium;
+    font-size: small;
 
 }
 
@@ -303,11 +306,27 @@
 .services-page-second-row {
     background-color: #82b2ff;
     margin-left: 500px;
+    
+    
 }
+
+.services-page-second-row-second-col {
+  
+    height: 200px;
+    width: 175px;
+    margin-top: 200px;
+}
+
+
 .image-dr-dan-ha {
-   margin-bottom: 100px !important;
-   margin-left: 460px !important;
-   margin-top: 10px !important;
+    
+    margin-left: 550px !important;
+    margin-top: 50px !important;
+    height: 350px;
+    /*border-style: dotted;- clue to why the page minimized weird */
+    margin-bottom: 1px;
+    /*border-width: 175px; when border-style is dotted it makes the dots super fat*/
+    
    
 }
 /*
@@ -319,6 +338,8 @@ DOES NOT CHANGE ANYTHING
 .services-page-second-row > h14 {
     margin-top: 30px !important;
     margin-left: 500px !important;
+
+
 }
 
 /* DOES NOT CHANGE ANYTHING 
@@ -329,8 +350,8 @@ DOES NOT CHANGE ANYTHING
 */
 
 .services-page-second-row-first-col {
-    margin-top: 100px;
-    margin-bottom: 25px;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
     text-align: left;
     font-size: medium;
 }

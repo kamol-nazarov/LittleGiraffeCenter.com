@@ -2,8 +2,9 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import drdanha_image from './../../assets/images/dr.danha.jpg';
+import drdanha_image from './../../assets/images/dr-danhacropped.png';
 import clipboardGiraffe_image from './../../assets/images/60-smiling-and-holding-notepad.png';
+
     
 import './../../assets/css/main-style.css';
 
@@ -15,12 +16,14 @@ export default class ServicesPage extends React.Component {
 
 
                 <Row className="services-page-body-first-row" >
-
+                    
                     
                         
                     <Col className="services-page-body-first-row-first-col" >
+                        
                     <Col sm={4}className="service-page-body-first-row-col" >
-                            <img src={clipboardGiraffe_image} alt="clipboardGiraffe" className='service-page-body-first-row-col-image'></img>
+                        
+                        <img src={clipboardGiraffe_image} alt="clipboardGiraffe" width={150} height={340} className='service-page-body-first-row-col-image'></img>
                     </Col>
                     <Container className="services-page-body-first-row-first-col-container-justify-content-center">
 
@@ -37,6 +40,18 @@ export default class ServicesPage extends React.Component {
                 </Row>
                 
                 <Row className="services-page-second-row" >
+                <div className="image-dr-dan-ha" >
+                        <Col sm={2}className="services-page-second-row-second-col" >
+                            <img
+                                height={200} width={175}
+                                className="dr-dan-ha"
+                                src={drdanha_image}
+                                alt="drdanha"
+                                
+                            />  
+                        </Col>
+                        
+                    </div>
                     <div className="services-page-body-second-row-container" >
                         <Col className="services-page-second-row-first-col" > {/*2r-1c*/}
                             <Container className="services-page-body-seond-row-second-col-container-justify-content-center">
@@ -52,16 +67,6 @@ export default class ServicesPage extends React.Component {
                                 On his days off he spends time with his children enjoying outdoor activities.
                             </Container>
                         </Col>
-                    </div>
-                    <div className="image-dr-dan-ha" >
-                        <Col sm={2}className="services-page-second-row-second-col" >
-                            <img
-                                className="dr-dan-ha"
-                                src={drdanha_image}
-                                alt="drdanha"
-                            />  
-                        </Col>
-                        
                     </div>
                     
                 </Row>
