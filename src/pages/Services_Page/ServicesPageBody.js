@@ -31,9 +31,9 @@ export default class ServicesPage extends React.Component {
                 </Row>
                 
                 <Row className="services-page-second-row" >
-                    <Container className="services-page-body-second-row-container" >
+                    <div className="services-page-body-second-row-container" >
                         <Col className="services-page-second-row-first-col" > {/*2r-1c*/}
-                            <h12>
+                            <Container className="services-page-body-seond-row-second-col-container-justify-content-center">
                                 Dr. Dan Ha, PT, DPT has over 17 years of pediatric physical medicine experience.<br />
                                 Dr. Dan attended Creighton University School of Medicine and Allied Health.<br />
                                 He specializes in the treatment of various Genetic and Neurological Diagnosis,<br /> 
@@ -44,10 +44,10 @@ export default class ServicesPage extends React.Component {
                                 Orthopedic rehab Dr. Dan specializes in the treatment of Torticollis and Plagiocephaly.<br />
                                 He is the proud father of 2 sons and a daughter.<br />
                                 On his days off he spends time with his children enjoying outdoor activities.
-                            </h12>
+                            </Container>
                         </Col>
-                    </Container>
-                    <Container className="image-dr-dan-ha" >
+                    </div>
+                    <div className="image-dr-dan-ha" >
                         <Col sm={2}className="services-page-second-row-second-col" >
                             <img
                                 className="dr-dan-ha"
@@ -56,7 +56,7 @@ export default class ServicesPage extends React.Component {
                             />  
                         </Col>
                         
-                    </Container>
+                    </div>
                     
                 </Row>
                 <Row className="services-page-third-row" >

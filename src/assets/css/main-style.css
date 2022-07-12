@@ -278,11 +278,24 @@
 .services-page-body-second-row-container {
     background-color: #82b2ff;
     text-align: center !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+   /*if you add margin left 500px, it will shift the entire div with background color to the right as well*/
+}
+
+.services-page-body-seond-row-second-col-container-justify-content-center {
+    height: 300px;
+    
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: medium;
+
 }
 
 
 .services-page-second-row {
     background-color: #82b2ff;
+    margin-left: 500px;
 }
 .image-dr-dan-ha {
    margin-bottom: 100px !important;
@@ -295,6 +308,7 @@
 
 .services-page-second-row > h14 {
     margin-top: 30px !important;
+    margin-left: 500px !important;
 }
 
 .services-page-second-row > h12 {
