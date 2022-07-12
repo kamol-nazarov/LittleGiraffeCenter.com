@@ -277,13 +277,20 @@
 
 .services-page-body-second-row-container {
     background-color: #82b2ff;
+    text-align: center !important;
 }
+
 
 .services-page-second-row {
     background-color: #82b2ff;
 }
 .image-dr-dan-ha {
+   margin-bottom: 100px !important;
+   margin-left: 500px !important;
    
+}
+.services-page-second-row-second-col {
+    margin-top: .5px !important;
 }
 
 .services-page-second-row > h14 {
