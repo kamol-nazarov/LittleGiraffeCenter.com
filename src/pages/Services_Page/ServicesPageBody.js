@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import drdanha_image from './../../assets/images/dr.danha.jpg';
+import clipboardGiraffe_image from './../../assets/images/60-smiling-and-holding-notepad.png';
     
 import './../../assets/css/main-style.css';
 
@@ -14,17 +15,22 @@ export default class ServicesPage extends React.Component {
 
 
                 <Row className="services-page-body-first-row" >
+
                     
                         
                     <Col className="services-page-body-first-row-first-col" >
-                        <Container className="services-page-body-first-row-first-col-container-justify-content-center">
+                    <Col sm={4}className="service-page-body-first-row-col" >
+                            <img src={clipboardGiraffe_image} alt="clipboardGiraffe" className='service-page-body-first-row-col-image'></img>
+                    </Col>
+                    <Container className="services-page-body-first-row-first-col-container-justify-content-center">
+
                             
-                                LITLE GIRAFFE CENTER, INC provides pediatric Physical, Occupational, Speech, and ABA Therapy.<br />
-                                We also specialize in the treatment and prevention of Torticollis. Our highly trained staff<br />
-                                can evaulate your child in the clinic or home environment. We are a family and community base center.<br />
-                                We understand the hectic schedule of parents and will work around your child individual needs. Our<br />
-                                specialized treatment plan of care are individualized according to the, child, parents and staff.<br />
-                                We believe every child is special and unique.
+                        LITLE GIRAFFE CENTER, INC provides pediatric Physical, Occupational, Speech, and ABA Therapy.<br />
+                        We also specialize in the treatment and prevention of Torticollis. Our highly trained staff<br />
+                        can evaulate your child in the clinic or home environment. We are a family and community base center.<br />
+                        We understand the hectic schedule of parents and will work around your child individual needs. Our<br />
+                        specialized treatment plan of care are individualized according to the, child, parents and staff.<br />
+                        We believe every child is special and unique.
                             
                         </Container>
                     </Col>
@@ -60,7 +66,8 @@ export default class ServicesPage extends React.Component {
                     
                 </Row>
                 <Row className="services-page-third-row" >
-                    <Container className="services-page-body-third-row-container" >
+                    <div className="services-page-body-third-row-container" > 
+
                         <Col className="services-page-body-third-row-first-col" > {/* 3r-1c */}
                             <h14>
                                 OUR SERVICES<br />
@@ -164,7 +171,7 @@ export default class ServicesPage extends React.Component {
                                 and fluid handwriting.
                             </h38>
                         </Col>
-                    </Container>
+                    </div>
                 </Row>
                 
             </Container>

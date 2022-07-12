@@ -246,6 +246,13 @@
 /* Home Page Footer Styling End */
 
 /* Service Page Body Styling Start */
+
+.service-page-body-first-row-col {
+    margin-left: 460px;
+    height: 570px !important;
+    margin-top: 100px;
+}
+
 .services-page-body-first-row-first-col {
     background-color: #6aa0b4;
 }
@@ -286,7 +293,7 @@
 .services-page-body-seond-row-second-col-container-justify-content-center {
     height: 300px;
     
-    margin-bottom: 15px;
+    /*margin-bottom: 15px !important;---does not change anything*/
     text-align: center;
     font-size: medium;
 
@@ -299,26 +306,31 @@
 }
 .image-dr-dan-ha {
    margin-bottom: 100px !important;
-   margin-left: 500px !important;
+   margin-left: 460px !important;
+   margin-top: 10px !important;
    
 }
+/*
+DOES NOT CHANGE ANYTHING
 .services-page-second-row-second-col {
-    margin-top: .5px !important;
+    margin-top: .5px;
 }
-
+*/
 .services-page-second-row > h14 {
     margin-top: 30px !important;
     margin-left: 500px !important;
 }
 
+/* DOES NOT CHANGE ANYTHING 
 .services-page-second-row > h12 {
 
     margin-top: 500px;
 }
+*/
 
 .services-page-second-row-first-col {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
     text-align: left;
     font-size: medium;
 }
