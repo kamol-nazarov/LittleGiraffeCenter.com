@@ -94,7 +94,7 @@ export default class ServicesPage extends React.Component {
                                 Physical Therapy:<br />
                             </h18>
                             <h19>
-                                Habilitation and rehabilitation concerned with restoration of activity and prevention of disability,<br />
+                                Habilitation and rehabilitation concerned with the restoration of activity and prevention of disability,<br />
                                 with use of a variety of modalities to achieve these purposes.<br />
                             </h19>
 
