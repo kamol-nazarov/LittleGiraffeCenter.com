@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import drdanha_image from './../../assets/images/dr-danhacropped.png';
+import drdanha_image from './../../assets/images/DDH.svg'
 import clipboardGiraffe_image from './../../assets/images/60-smiling-and-holding-notepad.png';
 
     
@@ -40,6 +40,7 @@ export default class ServicesPage extends React.Component {
                 </Row>
                 
                 <Row className="services-page-second-row" >
+
                 <div className="image-dr-dan-ha" >
                         <Col sm={2}className="services-page-second-row-second-col" >
                             <img
@@ -51,7 +52,8 @@ export default class ServicesPage extends React.Component {
                             />  
                         </Col>
                         
-                    </div>
+                </div>
+
                     <div className="services-page-body-second-row-container" >
                         <Col className="services-page-second-row-first-col" > {/*2r-1c*/}
                             <Container className="services-page-body-seond-row-second-col-container-justify-content-center">
@@ -65,6 +67,30 @@ export default class ServicesPage extends React.Component {
                                 Orthopedic rehab Dr. Dan specializes in the treatment of Torticollis and Plagiocephaly.<br />
                                 He is the proud father of 2 sons and a daughter.<br />
                                 On his days off he spends time with his children enjoying outdoor activities.
+                            </Container>
+                        </Col>
+                    </div>
+                    <div className="services-page-body-second-row-third-col-div" >
+                        <Col className="services-page-second-row-third-col" > {/*2r-1c*/}
+                            <Container className="services-page-body-seond-row-third-container">
+                                
+                                <h1>Does you child have difficulty:</h1>
+                                
+                                <h2>
+                                -Crawling, walking, and/or running<br />
+                                -Coordinating movements<br /> 
+                                -Sitting still and paying attention<br />
+                                -Exploring and playing with peers<br />
+                                -Learning new things<br />
+                                -In school with handwriting, cutting and coloring<br />
+                                -Touching particular textures<br />
+                                -Responding to sound or noises<br />
+                                -Speaking clearly, imitating sounds and/or words <br />
+                                -Feeding and swallowing<br />
+                                </h2>
+                                
+                                <h3>OUR BOARD CERTIFIED PHYSICAL, OCCUPATIONAL, SPEECH AND ABA THERAPISTS ARE WAITING TO HELP YOUR CHILD</h3>
+
                             </Container>
                         </Col>
                     </div>

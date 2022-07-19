@@ -286,10 +286,11 @@
 }
 
 .services-page-body-second-row-container {
-    background-color: #82b2ff;
+    background-color: #ffb937;
     text-align: center !important;
     margin-top: 30px !important;
     margin-bottom: 30px !important;
+    
    /*if you add margin left 500px, it will shift the entire div with background color to the right as well*/
 }
 
@@ -299,12 +300,13 @@
     /*margin-bottom: 15px !important;---does not change anything*/
     text-align: center;
     font-size: small;
+   
 
 }
 
 
 .services-page-second-row {
-    background-color: #82b2ff;
+    background-color: #f0f2b6;
     margin-left: 500px;
     
     
@@ -318,30 +320,23 @@
 }
 
 
-.image-dr-dan-ha {
-    
-    margin-left: 550px !important;
-    margin-top: 50px !important;
-    height: 350px;
-    /*border-style: dotted;- clue to why the page minimized weird */
-    margin-bottom: 1px;
-    /*border-width: 175px; when border-style is dotted it makes the dots super fat*/
-    
-   
-}
+
 /*
 DOES NOT CHANGE ANYTHING
 .services-page-second-row-second-col {
     margin-top: .5px;
 }
 */
+
+/*
+DOES NOT CHANGE ANYTHING
 .services-page-second-row > h14 {
     margin-top: 30px !important;
     margin-left: 500px !important;
 
 
 }
-
+*/
 /* DOES NOT CHANGE ANYTHING 
 .services-page-second-row > h12 {
 
@@ -361,12 +356,17 @@ DOES NOT CHANGE ANYTHING
 }
 
 .services-page-body-third-row-first-col > h14 {
+    margin-top: 70px !important; /*not working?*/
     font-size: xx-large;
-    color: #00bbff;
+    color: #412207;
+    text-align: center !important;/*not working*/
+
+    
 }
 
 .services-page-body-third-row-first-col > h21 {
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
+    
     
 }
 
@@ -379,6 +379,7 @@ DOES NOT CHANGE ANYTHING
 
 .services-page-body-third-row-first-col > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
     color: #535354;
+    
 }
 
 .services-page-body-third-row-first-col > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
@@ -388,6 +389,38 @@ DOES NOT CHANGE ANYTHING
     background-color: #b5d6b7;
 }
 
+.image-dr-dan-ha {
+    padding-top: 1px !important;
+    margin-left: 550px !important;
+    margin-top: 2px !important;
+    height: 350px;
+    /*border-style: dotted;- clue to why the page minimized weird */
+    margin-bottom: 2px;
+}
+
+.services-page-body-seond-row-third-container > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+    color: #633221;
+
+}
+
+.services-page-body-seond-row-third-container > h2 {
+    margin-left: 370px;
+    font-size: x-large;
+    color: #6d6d70;
+
+}
+
+.services-page-body-seond-row-third-container > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: large;
+    color: #ff7535;
+
+}
 /* Service Page Styling End */
 
 /* Gallery Page Styling Start */
