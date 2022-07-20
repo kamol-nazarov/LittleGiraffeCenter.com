@@ -33,9 +33,6 @@ export default function ServicesPageHeader() {
                 <Col sm={2} className="home-page-header-gallery-link" as="a" href="/gallery" >
                     <h6>Picture Gallery</h6>
                 </Col>
-                <Col sm={2} className="home-page-header-classes-link" as="a" href="/classes" >
-                    <h6>Classes</h6>
-                </Col>
                 <Col sm={2} className="home-page-header-contact-link" as="a" href="/contact" >
                     <h6>Contact Us</h6>
                 </Col>
