@@ -26,6 +26,13 @@
     text-decoration: none;
 }
 
+.home-page-header-first-row-toast {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    z-index:1;
+}
+
 .home-page-header-about-us-link:hover {
     background-color: #E2912A;
     transition: all .4s ease;
@@ -144,6 +151,7 @@
 .home-page-body-first-row {
     background-image: url('./../images/homepage-body-background.svg');
     height: 759px
+    
 }
 
 .home-page-body-first-row-col-image {
@@ -241,9 +249,14 @@
 /* Home Page Footer Styling End */
 
 /* Service Page Body Styling Start */
-.services-page-body-first-row-first-col {
-    background-color: #00bbff;
+
+.service-page-body-first-row-col {
+    margin-left: 580px;
+    height: 250px !important;
+    margin-top: 100px;
 }
+
+
 
 .home-page-footer-container {
     text-align: center;
@@ -260,37 +273,103 @@
     size: 500px;
 }
 */
+.services-page-body-container {
+    background-image: url('./../images/BlueWallpaper.png');
+}
 
 .services-page-body-first-row-first-col-container-justify-content-center {
     height: 300px;
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 1000px;
+    margin-bottom: 30px;
+    margin-left: 500px;
     text-align: center;
     font-size: large;
+    
 }
-services-page-body-first-row-first-col
 
 .services-page-body-second-row-container {
-    background-color: #7a7a7d;
+    background-color: #ffb937;
+    text-align: center !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    
+   /*if you add margin left 500px, it will shift the entire div with background color to the right as well*/
 }
 
+.services-page-body-seond-row-second-col-container-justify-content-center {
+    height: 200px;
+    
+    /*margin-bottom: 15px !important;---does not change anything*/
+    text-align: center;
+    font-size: small;
+   
+
+}
+
+
+.services-page-second-row {
+    background-color: #f0f2b6;
+    margin-left: 500px;
+    
+    
+}
+
+.services-page-second-row-second-col {
+  
+    height: 200px;
+    width: 175px;
+    margin-top: 200px;
+}
+
+
+
+/*
+DOES NOT CHANGE ANYTHING
+.services-page-second-row-second-col {
+    margin-top: .5px;
+}
+*/
+
+/*
+DOES NOT CHANGE ANYTHING
+.services-page-second-row > h14 {
+    margin-top: 30px !important;
+    margin-left: 500px !important;
+
+
+}
+*/
+/* DOES NOT CHANGE ANYTHING 
+.services-page-second-row > h12 {
+
+    margin-top: 500px;
+}
+*/
+
 .services-page-second-row-first-col {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
     text-align: left;
     font-size: medium;
 }
 
-
+.services-page-body-third-row-container {
+    background-color: #b5d6b7;
+}
 
 .services-page-body-third-row-first-col > h14 {
+    margin-top: 70px !important; /*not working?*/
     font-size: xx-large;
-    color: #00bbff;
+    color: #412207;
+    text-align: center !important;/*not working*/
+
+    
 }
 
 .services-page-body-third-row-first-col > h21 {
     margin-bottom: 25px;
+    
+    
 }
 
 .services-page-body-third-row-first-col > h15, h22 {
@@ -302,15 +381,48 @@ services-page-body-first-row-first-col
 
 .services-page-body-third-row-first-col > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
     color: #535354;
+    
 }
 
 .services-page-body-third-row-first-col > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
     color:#7a7a7d
 }
 .services-page-body-third-row-first-col {
-    background-color: #669B68;
+    background-color: #b5d6b7;
 }
 
+.image-dr-dan-ha {
+    padding-top: 1px !important;
+    margin-left: 550px !important;
+    margin-top: 2px !important;
+    height: 350px;
+    /*border-style: dotted;- clue to why the page minimized weird */
+    margin-bottom: 2px;
+}
+
+.services-page-body-seond-row-third-container > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+    color: #633221;
+
+}
+
+.services-page-body-seond-row-third-container > h2 {
+    margin-left: 370px;
+    font-size: x-large;
+    color: #6d6d70;
+
+}
+
+.services-page-body-seond-row-third-container > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: large;
+    color: #ff7535;
+
+}
 /* Service Page Styling End */
 
 /* Gallery Page Styling Start */
@@ -324,8 +436,6 @@ services-page-body-first-row-first-col
 .gallery-page-body-first-row-col-image {
     height: 300px;
     margin-top: 80px;
-    
-    
     
 }
 

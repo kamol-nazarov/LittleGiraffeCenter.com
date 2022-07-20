@@ -2,6 +2,9 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import drdanha_image from './../../assets/images/DDH.svg'
+import clipboardGiraffe_image from './../../assets/images/60-smiling-and-holding-notepad.png';
+
     
 import './../../assets/css/main-style.css';
 
@@ -14,48 +17,88 @@ export default class ServicesPage extends React.Component {
 
                 <Row className="services-page-body-first-row" >
                     
+                    
                         
                     <Col className="services-page-body-first-row-first-col" >
-                        <Container className="services-page-body-first-row-first-col-container-justify-content-center">
-                            <h11>
-                                LITLE GIRAFFE CENTER, INC provides pediatric Physical, Occupational, Speech, and ABA Therapy.<br />
-                                We also specialize in the treatment and prevention of Torticollis. Our highly trained staff<br />
-                                can evaulate your child in the clinic or home environment. We are a family and community base center.<br />
-                                We understand the hectic schedule of parents and will work around your child individual needs. Our<br />
-                                specialized treatment plan of care are individualized according to the, child, parents and staff.<br />
-                                We believe every child is special and unique.
-                            </h11>
+                        
+                    <Col sm={4}className="service-page-body-first-row-col" >
+                        
+                        <img src={clipboardGiraffe_image} alt="clipboardGiraffe" width={150} height={340} className='service-page-body-first-row-col-image'></img>
+                    </Col>
+                    <Container className="services-page-body-first-row-first-col-container-justify-content-center">
+
+                            
+                        LITLE GIRAFFE CENTER, INC provides pediatric Physical, Occupational, Speech, and ABA Therapy.<br />
+                        We also specialize in the treatment and prevention of Torticollis. Our highly trained staff<br />
+                        can evaulate your child in the clinic or home environment. We are a family and community base center.<br />
+                        We understand the hectic schedule of parents and will work around your child individual needs. Our<br />
+                        specialized treatment plan of care are individualized according to the, child, parents and staff.<br />
+                        We believe every child is special and unique.
+                            
                         </Container>
                     </Col>
                 </Row>
-                <Container sm={2}className="services-page-body-second-row-container" >
-                    <Row className="services-page-second-row" >
+                
+                <Row className="services-page-second-row" >
+
+                <div className="image-dr-dan-ha" >
+                        <Col sm={2}className="services-page-second-row-second-col" >
+                            <img
+                                height={200} width={175}
+                                className="dr-dan-ha"
+                                src={drdanha_image}
+                                alt="drdanha"
+                                
+                            />  
+                        </Col>
+                        
+                </div>
+
+                    <div className="services-page-body-second-row-container" >
                         <Col className="services-page-second-row-first-col" > {/*2r-1c*/}
-                            <h12>
+                            <Container className="services-page-body-seond-row-second-col-container-justify-content-center">
                                 Dr. Dan Ha, PT, DPT has over 17 years of pediatric physical medicine experience.<br />
                                 Dr. Dan attended Creighton University School of Medicine and Allied Health.<br />
                                 He specializes in the treatment of various Genetic and Neurological Diagnosis,<br /> 
                                 Developmental Delay, Autism Spectrum Disorder, Cerebral Palsy, Asperger Syndrome,<br />
                                 Wound Care, Prosthetic and Orthotics, Splints, Adoptive Equipment, Kinesio Tapping,<br />
-                                Cranial Helmets, and Cervical Torticollis Collar. Dr. Dan specializes in the treatment<br />
-                                of Torticollis and Plagiocephaly. He is the proud father of 2 sons and a daughter.<br />
+                                Cranial Helmets, Cervical Torticollis Collar, Down Syndrome, myofascial release,<br />
+                                motor delay, gait training, prematurity, extreme prematurity, cognitive delay and<br />
+                                Orthopedic rehab Dr. Dan specializes in the treatment of Torticollis and Plagiocephaly.<br />
+                                He is the proud father of 2 sons and a daughter.<br />
                                 On his days off he spends time with his children enjoying outdoor activities.
-                            </h12>
+                            </Container>
                         </Col>
-                        
-                        {/* <Col sm={2}className="services-page-second-row-second-col" >
-                            <img
-                                className="dr-dan-ha"
-                                src={drdanha_image}
-                                alt="drdanha"
-                            />  
-                        </Col>*/}
-                        
-                    </Row>
-                </Container>
-                
+                    </div>
+                    <div className="services-page-body-second-row-third-col-div" >
+                        <Col className="services-page-second-row-third-col" > {/*2r-1c*/}
+                            <Container className="services-page-body-seond-row-third-container">
+                                
+                                <h1>Does you child have difficulty:</h1>
+                                
+                                <h2>
+                                -Crawling, walking, and/or running<br />
+                                -Coordinating movements<br /> 
+                                -Sitting still and paying attention<br />
+                                -Exploring and playing with peers<br />
+                                -Learning new things<br />
+                                -In school with handwriting, cutting and coloring<br />
+                                -Touching particular textures<br />
+                                -Responding to sound or noises<br />
+                                -Speaking clearly, imitating sounds and/or words <br />
+                                -Feeding and swallowing<br />
+                                </h2>
+                                
+                                <h3>OUR BOARD CERTIFIED PHYSICAL, OCCUPATIONAL, SPEECH AND ABA THERAPISTS ARE WAITING TO HELP YOUR CHILD</h3>
+
+                            </Container>
+                        </Col>
+                    </div>
+                    
+                </Row>
                 <Row className="services-page-third-row" >
-                    <Container className="services-page-body-third-row-container" >
+                    <div className="services-page-body-third-row-container" > 
+
                         <Col className="services-page-body-third-row-first-col" > {/* 3r-1c */}
                             <h14>
                                 OUR SERVICES<br />
@@ -77,7 +120,7 @@ export default class ServicesPage extends React.Component {
                                 Physical Therapy:<br />
                             </h18>
                             <h19>
-                                Habilitation and rehabilitation concerned with restoration of activity and prevention of disability,<br />
+                                Habilitation and rehabilitation concerned with the restoration of activity and prevention of disability,<br />
                                 with use of a variety of modalities to achieve these purposes.<br />
                             </h19>
 
@@ -159,7 +202,7 @@ export default class ServicesPage extends React.Component {
                                 and fluid handwriting.
                             </h38>
                         </Col>
-                    </Container>
+                    </div>
                 </Row>
                 
             </Container>

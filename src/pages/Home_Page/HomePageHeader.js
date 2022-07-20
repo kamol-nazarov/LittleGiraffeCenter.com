@@ -38,9 +38,11 @@ export default function HomePageHeader() {
                             <Toast.Body>
                                 We screen all children and staff for COVID-19 symptoms. When you arrive, you will be asked about any
                                 coughs, fevers, or travel by you or your immediate household. In addition, everyone who enters our office will
-                                have their temperature taken and be given hand sanitzer.<br />
+                                have their temperature taken and be given hand sanitzer.
+                                <br />
                                 <br/>
-                                Staff wear masks at all times, regardless if they are working with children. We also ask that parents wear masks at all times.<br/>
+                                Staff wear masks at all times, regardless if they are working with children. We also ask that parents wear masks at all times.
+                                <br/>
                                 <br/>
                                 The entire office is thoroughly sanitized each night and following each patient visit.
                             </Toast.Body>
