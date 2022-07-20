@@ -1,0 +1,335 @@
+@media only screen and (max-width: 1400px) {
+    * {
+        font-family: 'Arima', cursive;
+    }
+
+    .home-page-header-about-us-link > h6 {
+        font-size: 14px;
+        margin-left: 55px;
+    }
+
+    .home-page-header-insurance-link > h6 {
+        font-size: 14px;
+        margin-left: 24px;
+    }
+
+    .home-page-header-payment-link > h6 {
+        font-size: 14px;
+        margin-left: 33px;
+    }
+
+    .home-page-header-gallery-link > h6 {
+        font-size: 14px;
+        margin-left: 37px;
+    }
+
+    .home-page-header-classes-link > h6 {
+        font-size: 14px;
+        margin-left: 60px;
+    }
+
+    .home-page-header-contact-link > h6  {
+        font-size: 14px;
+        margin-left: 52px;
+    }
+
+    .home-page-body-second-row-first-col-container > h1 {
+       margin-left: 230px;
+    }
+
+    .home-page-body-second-row-first-col-container-image {
+        height: 250px;
+        width: 400px;
+        margin-left: 380px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-page-header-container-row-one-col-two {
+        display: inline-flex;
+        margin-left: -50px;
+    }
+
+    .home-page-header-container-row-one-col-two-button {
+        height: 50px;
+        width: 100px;
+        margin-top: 40px;
+    }
+
+    .home-page-header-number {
+        margin-right: 20px;
+    }
+
+
+    .home-page-header-container-row-one-col-two-button > p {
+        font-size: 10px;
+        margin-top: 3px;
+
+    }
+
+    .home-page-header-container-row-one-col-two-toast {
+        margin-left: -20px;
+    }
+
+    .home-page-header-about-us-link > h6 {
+        font-size: 12px;
+        margin-left: 55px;
+    }
+
+    .home-page-header-insurance-link > h6 {
+        font-size: 14px;
+        margin-left: 5.5px;
+    }
+
+    .home-page-header-payment-link > h6 {
+        font-size: 14px;
+        margin-left: 18px;
+    }
+
+    .home-page-header-gallery-link > h6 {
+        font-size: 14px;
+        margin-left: 23px;
+    }
+
+    .home-page-header-classes-link > h6 {
+        font-size: 14px;
+        margin-left: 46px;
+    }
+    
+    .home-page-header-contact-link > h6  {
+        font-size: 14px;
+        margin-left: 38px;
+    }
+
+    .home-page-body-first-row-second-col-container > h2 {
+        margin-left: 110px;
+    }
+
+    .home-page-body-second-row-first-col-container-image {
+        margin-left: 279px;
+    }
+
+    .home-page-body-second-row-first-col-container > h1 {
+        font-size: 33px;
+        margin-left: 202px;
+    }
+} 
+
+@media only screen and (max-width: 1000px) {
+    .home-page-header-container-row-one-col-two-toast {
+        margin-left: -60px;
+    }
+
+    .home-page-header-about-us-link > h6 {
+        font-size: 12px;
+        margin-left: 22px;
+    }
+
+    .home-page-header-insurance-link > h6 {
+        font-size: 11px;
+        margin-left: 23px;
+    }
+
+    .home-page-header-payment-link > h6 {
+        font-size: 11px;
+        margin-left: 28px;
+    }
+
+    .home-page-header-gallery-link > h6 {
+        font-size: 11px;
+        margin-left: 30px;
+    }
+
+    .home-page-header-classes-link > h6 {
+        font-size: 11px;
+        margin-left: 29px;
+    }
+    
+    .home-page-header-contact-link > h6  {
+        font-size: 11px;
+        margin-left: 22px;
+    }
+
+    .home-page-body-first-row-second-col-container > h2 {
+        margin-left: 115px;
+        margin-top: -55px;
+        font-size: 25px;
+    }
+
+    .home-page-body-first-row-second-col-container > h5 {
+        margin-left: 115px;
+        font-size: 18px;
+    }
+
+    .home-page-body-first-row-second-col-container > h3 {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .home-page-body-second-row-first-col-container > h1 {
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    .home-page-body-second-row-first-col-container > h6 {
+        font-size: 14px;
+    }
+
+    .home-page-body-second-row-first-col-container-image {
+        margin-left: 165px;
+    }
+
+    .home-page-body-third-row-first-col-container > h1 {
+        font-size: 25px;
+    }
+
+    .home-page-body-third-row-first-col-container > h7 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 843px) {
+    .home-page-header-container-row-one-col-two-toast {
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .home-page-header-number {
+        font-size: 10px;
+        margin-top: 60px;
+    }
+
+    .home-page-header-container-row-one-col-two-button {
+        margin-top: 60px;
+    }
+
+    .home-page-header-about-us-link > h6 {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .home-page-header-insurance-link > h6 {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .home-page-header-payment-link > h6 {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .home-page-header-gallery-link > h6 {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .home-page-header-classes-link > h6 {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    
+    .home-page-header-contact-link > h6  {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .home-page-body-first-row-col-image {
+        margin-left: 0px;
+    }
+
+    .home-page-body-second-row-first-col-container > h1 {
+        margin-left: 42px;
+    }
+
+    .home-page-body-second-row-first-col-container > h6 {
+        margin-left: 0px;
+    }
+
+    .home-page-body-second-row-first-col-container-image {
+        margin-left: 53px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .home-page-header-number {
+        font-size: 10px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .home-page-header-container-row-one-col-two-button {
+        margin-top: 0px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .home-page-header-container-row-one-col-two-button > p {
+        font-size: 8px;
+    }
+
+    .home-page-header-container-row-one-col-two-toast {
+        margin-left: 40px;
+    }
+    
+    .home-page-header-about-us-link > h6 {
+        font-size: 10px;
+        margin-left: 250px;
+    }
+
+    .home-page-header-insurance-link > h6 {
+        font-size: 10px;
+        margin-left: 228px;
+    }
+
+    .home-page-header-payment-link > h6 {
+        font-size: 10px;
+        margin-left: 236px;
+    }
+
+    .home-page-header-gallery-link > h6 {
+        font-size: 10px;
+        margin-left: 240px;
+    }
+
+    .home-page-header-classes-link > h6 {
+        font-size: 10px;
+        margin-left: 258px;
+    }
+    
+    .home-page-header-contact-link > h6  {
+        font-size: 10px;
+        margin-left: 252px;
+    }
+
+    .home-page-body-first-row-col-image {
+        height: 400px;
+        margin-top: 100px;
+    }
+
+    .home-page-body-first-row {
+        height: 600px;
+    }
+
+    .home-page-body-first-row-second-col-container {
+        margin-top: -300px;
+        
+    }
+
+    .home-page-body-first-row-second-col-container > h2 {
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+    .home-page-body-first-row-second-col-container > h5 {
+        font-size: 16px;
+    }
+
+    .home-page-body-first-row-second-col-container > h3 {
+        margin-left: 130px;
+        font-size: 18px;
+    }
+}

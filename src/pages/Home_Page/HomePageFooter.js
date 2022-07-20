@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import fb_logo from './../../assets/images/fblogo.png'
 
 import './../../assets/css/main-style.css';
+import './../../assets/css/media-queries-1.css';
 
 export default function HomePageFooter() {
     return (

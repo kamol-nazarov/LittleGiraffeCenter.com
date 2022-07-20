@@ -6,6 +6,7 @@ import WavingGiraffe from './../../assets/images/giraffe-waving.png';
 import PatientPictureOne from './../../assets/images/100_3237.JPG';
 
 import '../../assets/css/main-style.css';
+import './../../assets/css/media-queries-1.css';
 
 export default function HomePageBody() {
     return (
@@ -27,8 +28,9 @@ export default function HomePageBody() {
                     <Container className="home-page-body-second-row-first-col-container" >
                         <h1>Get To Know Us At Little Giraffe Center</h1>
                         <h6>
-                            Our staff are accredited and continue to attend yearly education courses on various diagnosis.<br/> 
-                            Our staff is trained in functional play and sensory to decrease the stress on your child with<br/> sensory colors, swings, sensory rooms, functional play rooms, and play gyms.
+                            Our staff are accredited and continue to attend yearly education courses on various diagnosis. 
+                            Our staff is trained in functional play and sensory to decrease the stress on your child with
+                             sensory colors, swings, sensory rooms, functional play rooms, and play gyms.
                         </h6>
                         <img src={PatientPictureOne} alt="giraffe" className='home-page-body-second-row-first-col-container-image'></img>
                     </Container>
@@ -39,10 +41,10 @@ export default function HomePageBody() {
                     <Container className="home-page-body-third-row-first-col-container" > 
                         <h1>Our Mission</h1>
                         <h7>
-                            To provide quality care through Pediatric Early Intervention and to ensure fiscal viability and the future of its vision,<br /> 
-                            the Little Giraffe Center will foster a supportive growth and learning environment,<br />
-                            which will empower staff and families to become part of the therapy team.<br />
-                            The Little Giraffe Center will continue to listen and respond to community needs in an atmosphere of fun and creativity.<br />
+                            To provide quality care through Pediatric Early Intervention and to ensure fiscal viability and the future of its vision, 
+                            the Little Giraffe Center will foster a supportive growth and learning environment,
+                            which will empower staff and families to become part of the therapy team.
+                            The Little Giraffe Center will continue to listen and respond to community needs in an atmosphere of fun and creativity.
                             Our treatment center include swings, sensory rooms, functional play rooms, and play gyms.
                         </h7>
                     </Container>           
