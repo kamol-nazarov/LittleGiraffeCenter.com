@@ -5,7 +5,7 @@ export default class InsurancePage extends React.Component {
 
         return (
             <div className='insurance-page-div'>
-                <h1>Insurance Page Placeholder...</h1>
+                <h1>Work In Progress!</h1>
             </div>
         );
     }

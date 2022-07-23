@@ -5,7 +5,7 @@ export default class MakePaymentPage extends React.Component {
 
         return (
             <div className='make-payment-page-div'>
-                <h1>Make Payment Page Placeholder...</h1>
+                <h1>Work InProgress!</h1>
             </div>
         );
     }

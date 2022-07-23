@@ -5,7 +5,7 @@ export default class ContactPage extends React.Component {
 
         return (
             <div className='contact-page-div'>
-                <h1>Contact Page PlaceHolder...</h1>
+                <h1>Work InProgress!</h1>
             </div>
         );
     }

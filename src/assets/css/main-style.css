@@ -1,4 +1,5 @@
 @import "media-queries-1.css";
+@import "media-queries-2.css";
 
 * {
     font-family: 'Arima', cursive;
@@ -10,12 +11,39 @@
     margin-top: 10px !important;
 }
 
-.home-page-header-number {
-    margin-top: 15px;
+.home-page-header-office-number {
+    margin-top: 28px;
+    margin-left: -100px;
+    font-size: 15px;
+}
+
+.home-page-header-fax-number {
+    margin-top: 28px;
+    margin-left: -50px;
+    font-size: 15px;
 }
 
 .home-page-header-navbar-brand {
     font-size: 50px !important;
+}
+
+.home-page-header-container-row-one-col-four-button {
+    margin-top: 18px;
+}
+
+.home-page-header-container-row-one-col-four-button > p {
+    margin: auto;
+    font-size: 15px;
+}
+
+.home-page-header-container-row-one-col-five-button {
+    margin-top: 18px;
+    margin-left: -55px;
+}
+
+.home-page-header-container-row-one-col-five-button > p {
+    margin: auto;
+    font-size: 15px;
 }
 
 .home-page-header-about-us-link {
@@ -26,11 +54,11 @@
     text-decoration: none;
 }
 
-.home-page-header-first-row-toast {
-    position: absolute;
-    top: 0; 
-    right: 0;
-    z-index:1;
+.home-page-header-container-row-one-col-four-toast {
+    margin-left: -40px;
+}
+.home-page-header-container-row-one-col-five-toast {
+    margin-left: -80px;
 }
 
 .home-page-header-about-us-link:hover {
@@ -273,279 +301,93 @@
     size: 500px;
 }
 */
-.services-page-body-container {
+.services-body-container {
     background-image: url('./../images/BlueWallpaper.png');
 }
 
-.services-page-body-first-row-first-col-container-justify-content-center {
-    height: 300px;
-    margin-top: 100px;
+.services-body-container-row-one {
+    border: 1px solid black;
+}
+
+.services-body-container-row-one-col-one-img {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.services-body-container-row-one-col-two {
+    text-align: center;
+}
+
+.services-body-container-row-one-col-two > h1 {
+    margin-top: 75px;
+}
+
+.services-body-container-row-two {
+    border: 1px solid black;
+}
+
+.services-body-container-row-three {
+    border: 1px solid black;
+}
+.services-body-container-row-four {
+    border: 1px solid black;
+}
+
+.services-body-container-row-two-col-one {
+    text-align: center;
+}
+
+.services-body-container-row-two-col-one > h1 {
+    margin-top: 30px;
+}
+
+.services-body-container-row-two-col-one > p {
     margin-bottom: 30px;
-    margin-left: 500px;
+}
+
+.services-body-container-row-three-col-one {
     text-align: center;
-    font-size: large;
-    
 }
 
-.services-page-body-second-row-container {
-    background-color: #ffb937;
-    text-align: center !important;
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-    
-   /*if you add margin left 500px, it will shift the entire div with background color to the right as well*/
+.services-body-container-row-three-col-one > h3 {
+    margin-top: 30px;
 }
 
-.services-page-body-seond-row-second-col-container-justify-content-center {
-    height: 200px;
-    
-    /*margin-bottom: 15px !important;---does not change anything*/
-    text-align: center;
-    font-size: small;
-   
-
-}
-
-
-.services-page-second-row {
-    background-color: #f0f2b6;
-    margin-left: 500px;
-    
-    
-}
-
-.services-page-second-row-second-col {
-  
-    height: 200px;
-    width: 175px;
-    margin-top: 200px;
-}
-
-
-
-/*
-DOES NOT CHANGE ANYTHING
-.services-page-second-row-second-col {
-    margin-top: .5px;
-}
-*/
-
-/*
-DOES NOT CHANGE ANYTHING
-.services-page-second-row > h14 {
-    margin-top: 30px !important;
-    margin-left: 500px !important;
-
-
-}
-*/
-/* DOES NOT CHANGE ANYTHING 
-.services-page-second-row > h12 {
-
-    margin-top: 500px;
-}
-*/
-
-.services-page-second-row-first-col {
-    margin-top: 10px !important;
-    margin-bottom: 5px;
+.services-body-container-row-three-col-one > ul {
     text-align: left;
-    font-size: medium;
+    margin-bottom: 30px;
 }
 
-.services-page-body-third-row-container {
-    background-color: #b5d6b7;
-}
-
-.services-page-body-third-row-first-col > h14 {
-    margin-top: 70px !important; /*not working?*/
-    font-size: xx-large;
-    color: #412207;
-    text-align: center !important;/*not working*/
-
-    
-}
-
-.services-page-body-third-row-first-col > h21 {
-    margin-bottom: 25px;
-    
-    
-}
-
-.services-page-body-third-row-first-col > h15, h22 {
-    font-size: larger;
-    color: #f08058;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.services-page-body-third-row-first-col > h16, h18, h20, h23, h25, h27, h29, h31, h33, h35, h37 {
-    color: #535354;
-    
-}
-
-.services-page-body-third-row-first-col > h17, h19, h21, h24, h26, h28, h30, h32, h34, h36, h38 {
-    color:#7a7a7d
-}
-.services-page-body-third-row-first-col {
-    background-color: #b5d6b7;
-}
-
-.image-dr-dan-ha {
-    padding-top: 1px !important;
-    margin-left: 550px !important;
-    margin-top: 2px !important;
-    height: 350px;
-    /*border-style: dotted;- clue to why the page minimized weird */
-    margin-bottom: 2px;
-}
-
-.services-page-body-seond-row-third-container > h1 {
+.services-body-container-row-three-col-two {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: xxx-large;
-    color: #633221;
-
 }
 
-.services-page-body-seond-row-third-container > h2 {
-    margin-left: 370px;
-    font-size: x-large;
-    color: #6d6d70;
-
+.services-body-container-row-three-col-two > h3 {
+    margin-top: 30px;
 }
 
-.services-page-body-seond-row-third-container > h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.services-body-container-row-three-col-two > ul {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.services-body-container-row-four-col-one {
     text-align: center;
-    font-size: large;
-    color: #ff7535;
+}
 
+.services-body-container-row-four-col-one > h3 {
+    margin-top: 30px;
+}
+
+.services-body-container-row-four-col-one > ul {
+    text-align: left;
+    margin-bottom: 30px;
 }
 /* Service Page Styling End */
 
 /* Gallery Page Styling Start */
 
-.gallery-page-body-container {
-    background-color: #f3deff;
-    padding: 0px;
+.gallery-body-container-row-one-col-one {
     text-align: center;
-}
-
-.gallery-page-body-first-row-col-image {
-    height: 300px;
-    margin-top: 80px;
-    
-}
-
-.gallery-page-body-first-row-second-col-image {
-    height: 300px;
-    margin-top: 80px;
-    
-}
-
-.gallery-page-body-first-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-    margin-top: 80px;
-    
-}
-
-.gallery-page-body-second-row-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-second-row-second-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-second-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-second-row-fourth-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-third-row-col-image {
-    height: 300px;
-    margin-left: center;;
-    
-}
-
-.gallery-page-body-third-row-second-col-image {
-    height: 300px;
-    margin-left: center;
-   
-}
-
-.gallery-page-body-third-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-fourth-row-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-fourth-row-second-col-image {
-    height: 300px;
-    margin-left: center;
-    
-}
-
-.gallery-page-body-fourth-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-   
-}
-
-.gallery-page-body-fifth-row-col-image {
-    height: 300px;
-    margin-left: center;
-}
-.gallery-page-body-fifth-row-second-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-fifth-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-sixth-row-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-sixth-row-second-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-sixth-row-third-col-image {
-    height: 300px;
-    margin-left: center;
-}
-
-.gallery-page-body-seventh-row-col-image {
-    height: 300px;
-    margin-left: center;    
-}
-
-.gallery-page-body-seventh-row-second-col-image {
-    height: 300px;
-    margin-left: center;    
 }
